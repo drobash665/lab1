@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* стили для проектов */
+.projects {
+  margin-bottom: 100px;
+}
+.projects .row {
+  row-gap: 24px;
+}
+.projects__card img {
+  margin-bottom: 12px;
+  width: 100%;
+}
+.projects__card a {
+  text-decoration: none;
+  color: #ffa239;
+  font-weight: 600;
+}
+.projects__card a:hover {
+  text-decoration: underline;
+}
+.projects__card p {
+  padding-top: 6px;
+}
+
+/*конец стией для проектов *//*# sourceMappingURL=projects.css.map */

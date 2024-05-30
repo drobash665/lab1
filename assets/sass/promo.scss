@@ -1,0 +1,74 @@
+@import "variables";
+/*стили для главного блока*/
+.promo {
+    margin-bottom: 79px;
+
+    h1 {
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 57.6px;
+        color: #0c2836;
+        margin-bottom: 28px;
+
+        @media screen and (max-width: $md) {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+
+        span {
+            color: #ffa239;
+        }
+    }
+
+    p {
+        margin-bottom: 250px;
+        @media screen and (max-width: 991px) {
+            margin-bottom: 285px;
+        }
+
+        @media screen and (max-width: $md) {
+            margin-bottom: 20px;
+        }
+    }
+
+    .promo-bg {
+        height: 628px;
+        background: url("../../img/bg.png") center no-repeat;
+        background-size: contain;
+        @media screen and (max-width: 991px) {
+            height: 670px;
+        }
+        @media screen and (max-width: $md) {
+            background: none;
+            height: auto;
+        }
+
+        .img {
+            @media screen and (max-width: $sm) {
+                width: 75px;
+            }
+        }
+
+        .promo-bg-md {
+            display: none;
+            width: 100%;
+            margin-bottom: 20px;
+            @media screen and (max-width: $md) {
+                display: block;
+            }
+        }
+    }
+
+    .promo__list li {
+        display: flex;
+        align-items: baseline;
+        grid-gap: 12px;
+        margin-bottom: 8px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+
+/*конец стилей для главного блока*/

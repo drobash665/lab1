@@ -1,0 +1,106 @@
+@charset "UTF-8";
+@import "sass/logo.css";
+@import "sass/promo.css";
+@import "sass/blockwww.css";
+@import "sass/projects.css";
+@import "sass/tech.css";
+@import "sass/feedback.css";
+@import "sass/footer.css";
+.container,
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+}
+
+.row {
+  --bs-gutter-x: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  .container,
+.container-sm {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container,
+.container-md,
+.container-sm {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl,
+.container-xxl {
+    max-width: 1320px;
+  }
+}
+/*сброс стилей*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, p, h1, h2, h3, h4, h5, ul {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/*сброс стилей закончен*/
+/*настройка основных стилей*/
+:root {
+  --box-shadow: 0 0 35px rgba(12, 40, 54, 0.12);
+  --dark: #0C2836;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--dark);
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 120%;
+  font-weight: 800;
+  margin-bottom: 28px;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+/* конец настройки основных стилей*//*# sourceMappingURL=style.css.map */

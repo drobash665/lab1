@@ -1,0 +1,11 @@
+@import "variables";
+
+.logo {
+    padding-top: 35px;
+    margin-bottom: 93px;
+
+    @media screen and (max-width: $sm) {
+        padding-top: 10px;
+        margin-bottom: 50px;
+    }
+}
